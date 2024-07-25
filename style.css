@@ -21,7 +21,6 @@ body {
     font-family: "Nanum Gothic", sans-serif;
 } 
 
-
 .menu li{
     display: inline-block;
 }
@@ -38,7 +37,7 @@ body {
 
 .banner-img{
     position: relative;
-    max-width: 100%;
+    width: 100%;
     opacity: 0.5;
     filter: brightness(50%);
 }
@@ -127,6 +126,11 @@ body {
         padding: 5px 10px 5px 10px;
     }
 
+    .banner-img{
+        max-height: 200px;
+        object-fit: cover;
+    }
+
     .banner-text {
         padding: 20px 10%;
         line-height: 80%;
@@ -213,10 +217,15 @@ body {
         padding: 10px 10px 10px 10px;
     }
 
+    .banner-img{
+        max-height: 300px;
+        object-fit: cover;
+    }
+
     .banner-text {
         padding: 10% 10%;
         line-height: 130%;
-        transform: translate(0%, -120%);
+        transform: translate(0%, -90%);
     }
 
     .banner-text h1{
@@ -312,10 +321,15 @@ body {
         padding: 10px 20px 10px 20px;
     }
 
+    .banner-img{
+        max-height: 500px;
+        object-fit: cover;
+    }
+
     .banner-text {
         padding: 10% 10%;
         line-height: 180%;
-        transform: translate(0%, -130%);
+        transform: translate(0%, -80%);
     }
 
     .banner-text h1{
@@ -335,11 +349,11 @@ body {
     }
 
     .box-container-title {
-        font-size: 52px;
+        font-size: 48px;
     }
 
     .box-container-content {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .squared-box-list {
@@ -347,8 +361,8 @@ body {
     }
 
     .squared-box-content{
-        width: 380px;
-        height: 300px;
+        width: 360px;
+        height: 220px;
         border-radius: 6%;
         padding: 20px 30px 20px 30px;
         margin:40px 20px 40px 20px;
@@ -357,11 +371,11 @@ body {
 
     .squared-box-title {
         text-align: center;
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .squared-box-text {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .category-box-content {
@@ -382,7 +396,7 @@ body {
     }
 
     .category-box-title {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .category-box-img {
@@ -410,10 +424,15 @@ body {
         padding: 10px 50px 10px 50px;
     }
 
+    .banner-img{
+        max-height: 700px;
+        object-fit: cover;
+    }
+
     .banner-text {
         padding: 10% 10%;
         line-height: 200%;
-        transform: translate(0%, -130%);
+        transform: translate(0%, -90%);
     }
 
     .banner-text h1{
